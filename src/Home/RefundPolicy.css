@@ -1,0 +1,123 @@
+/* Base Container */
+.refund-container {
+    color: #ffffff;
+    padding: 50px 0;
+    font-family: inherit; /* Uses your website's existing font */
+  }
+  
+  .refund-row {
+    justify-content: center;
+  }
+  
+  .refund-col {
+    padding: 0 15px;
+  }
+  
+  /* Header */
+  .refund-header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 20px;
+  }
+  
+  .refund-header h2 {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .refund-subheader {
+    color: #cccccc;
+    font-size: 1.1rem;
+  }
+  
+  /* Notice Box */
+  .refund-notice {
+    background-color: #1e1e1e;
+    border-left: 4px solid #ff6b6b;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .refund-notice h4 {
+    color: #ff6b6b;
+    margin-top: 0;
+  }
+  
+  /* Sections */
+  .refund-section {
+    margin-bottom: 40px;
+  }
+  
+  .refund-section h3 {
+    font-weight: 500;
+    color: #ffffff;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .refund-section p,
+  .refund-section li {
+    color: #cccccc;
+    line-height: 1.7;
+  }
+  
+  .refund-section ul {
+    padding-left: 20px;
+  }
+  
+  .refund-section strong {
+    color: #ffffff;
+  }
+  
+  /* Alert Box */
+  .refund-alert {
+    background-color: #332900;
+    border: 1px solid #665200;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .refund-alert h5 {
+    color: #ffd166;
+    margin-top: 0;
+  }
+  
+  /* Table */
+  .refund-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .refund-table th,
+  .refund-table td {
+    padding: 12px 15px;
+    border: 1px solid #333333;
+    text-align: left;
+  }
+  
+  .refund-table th {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .refund-table td {
+    background-color: #121212;
+    color: #cccccc;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .refund-container {
+      padding: 30px 15px;
+    }
+    
+    .refund-table {
+      display: block;
+      overflow-x: auto;
+    }
+  }

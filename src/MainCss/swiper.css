@@ -1,0 +1,44 @@
+.yourSwiper{
+    height: 65vh;
+    width: 26vw;
+    margin-left: 22%;
+}
+
+.swiperImg{
+    height: 65vh;
+    width: 26vw;
+    object-fit: cover;
+    
+}
+@media screen and (max-width:997px) {
+    .yourSwiper{
+        height: 60vh;
+        width: 75vw;
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    
+    .swiperImg{
+        height: 60vh;
+        width: 75vw;
+        object-fit: cover;
+        
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .yourSwiper{
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .yourSwiper img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .swiperImg{
+        object-fit: cover;
+        
+    }
+}

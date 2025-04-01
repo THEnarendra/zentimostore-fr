@@ -1,0 +1,124 @@
+/* Testimonial Slider Container */
+.testimonials {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonials.darkTheme {
+    background-color: #0e0e0e;
+    color: #fff;
+  }
+  
+  .testimonial-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    color: inherit;
+  }
+  
+  .testimonial-title:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #db0e0e;
+    margin: 15px auto;
+  }
+  
+  .testimonial-slider-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Individual Testimonial Slide */
+  .testimonial-slide {
+    outline: none;
+    padding: 0 15px;
+  }
+  
+  .testimonial-content {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .darkTheme .testimonial-content {
+    background: #333;
+    color: #fff;
+  }
+  
+  .testimonial-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    color: inherit;
+  }
+  
+  /* Author Section */
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .author-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 2px solid #db0e0e;
+  }
+  
+  .author-info {
+    text-align: left;
+  }
+  
+  .author-name {
+    font-size: 1rem;
+    margin: 0 0 5px 0;
+    color: inherit;
+  }
+  
+  .author-location {
+    font-size: 0.85rem;
+    color: #777;
+  }
+  
+  .darkTheme .author-location {
+    color: #aaa;
+  }
+  
+  /* Slider Dots Customization */
+  .slick-dots {
+    bottom: -40px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 10px;
+    color: #db0e0e;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #db0e0e;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .testimonial-title {
+      font-size: 1.5rem;
+    }
+    
+    .testimonial-text {
+      font-size: 1rem;
+    }
+    
+    .author-avatar {
+      width: 50px;
+      height: 50px;
+    }
+  }

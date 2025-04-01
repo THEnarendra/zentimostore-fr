@@ -1,0 +1,81 @@
+
+.darkTheme{
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+.lightTheme{
+  background-color: white;
+  color: black;
+  overflow-x: hidden;
+}
+
+/* Arrow container adjustments */
+.slick-prev,
+.slick-next {
+    width: 25px;
+    height: 25px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.slick-prev {
+    left: 5px !important;
+}
+
+.slick-next {
+    right: 5px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 20px;
+    color: rgb(255, 132, 132) !important;
+    opacity: 1 !important;
+}
+
+/* Ensure both arrows are visible */
+.slick-disabled {
+    opacity: 0.5 !important;
+    display: block !important;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+    .category-carousel-container {
+        padding: 0 25px; /* Add padding to prevent arrows from going outside */
+    }
+    
+    .slick-prev,
+    .slick-next {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 16px;
+    }
+    
+    .slick-prev {
+        left: 0 !important;
+    }
+    
+    .slick-next {
+        right: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .slick-prev,
+    .slick-next {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 14px;
+    }
+}

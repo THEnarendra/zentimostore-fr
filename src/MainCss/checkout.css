@@ -1,0 +1,133 @@
+.rightSide {
+    height: auto;
+    padding: 3%;
+    background: rgb(88 41 158 / 22%);
+    border-radius: 10px;
+}
+
+@media screen and (max-width:1282px) {
+    .checkout-page {
+        margin-top: 125px;
+    }
+
+}
+
+@media screen and (max-width:770px) {
+    .checkout-page {
+        margin-top: 95px;
+    }
+}
+
+h4 {
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 2%;
+    background-color: transparent;
+    border: 1px solid rgba(176, 174, 174, 0.632);
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.name-fields,
+.location-fields {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.cart-items1 {
+    border: 0.1px solid rgba(255, 255, 255, 0.459);
+    margin-bottom: 5px;
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.cart-item img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-code {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.promo-code input {
+    width: 70%;
+    margin-right: -10px;
+    border: 1px solid red;
+}
+
+.cart-summary {
+    display: flex;
+    justify-content: right;
+    margin-right: 10%;
+}
+
+
+.checkout-button {
+    width: 98%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.apply-btn {
+    color: white;
+    padding: 2%;
+    background: red;
+    border: none;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.checkout-button:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.background-radio {
+    background: rgb(88 41 158 / 22%);
+}
+
+.error {
+    color: red;
+}
+
+.btn {
+    background-color: rgb(219, 14, 14);
+    color: white;
+}

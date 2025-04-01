@@ -1,0 +1,12 @@
+/* Product Slider Container */
+.product-slider-container {
+    width: 80vw;
+    border: 1px solid gray;
+    border-radius: 7px;
+  }
+  
+  @media screen and (max-width: 450px) {
+    .product-slider-container{
+        width: 90vw;
+    }
+  }
